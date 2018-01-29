@@ -1,6 +1,6 @@
 {
   "name": "raw-string",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "returns a raw word only character string without any special chars, useful for string comparison",
   "main": "index.js",
   "scripts": {
