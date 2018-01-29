@@ -1,2 +1,2 @@
-const _ = require('lodash');
-module.exports = function(item) { return _.deburr(item).replace(/\W+/g, "").toLowerCase().trim() };
+var deburr = require('lodash.deburr');
+module.exports = function(item) { return deburr(item).replace(/\W+/g, "").toLowerCase().trim() };
