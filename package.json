@@ -2,16 +2,24 @@
   "name": "raw-string",
   "version": "0.0.3",
   "description": "returns a raw word only character string without any special chars, useful for string comparison",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "tsc"
   },
   "author": "Johan Mickelin",
   "license": "ISC",
   "dependencies": {
     "lodash.deburr": "^4.1.0"
   },
-  "devDependencies": {},
+  "test": "jest",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/lodash.deburr": "^4.1.6",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jaywalklabs/raw-string.git"
